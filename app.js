@@ -26,6 +26,8 @@ let login = async () => {
                 title: "Your are successfuly login",
                 showConfirmButton: false,
               });
+
+              location.replace("./Todos/todo.html") 
             
         }
         catch (error) {
@@ -57,6 +59,8 @@ let googleLogin = async () => {
             title: "Your are successfuly login",
             showConfirmButton: false,
           });
+
+         location.replace("./Todos/todo.html") 
 
     } catch (error) {
         const errorCode = error.code;
