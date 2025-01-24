@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "lato";
+    src: url("./fonts/Lato-Light.ttf");
+}
+
+body {
+    background-color: black !important;
+}
+
+
+.btnSign {
+    background-color: #F35D01;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: "lato";
+    font-weight: 700;
+    padding: 10px;
+}
+
+.linko {
+    text-decoration: none;
+    color: white;
+
+}
+
+.loginParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+}
+
+.child {
+    background-color: #F35D01;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.child>h1 {
+    font-family: "lato";
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.child>div>input{
+    margin-top: 10px;
+    padding: 05px;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.child>h3{
+    font-family: "lato";
+    font-weight: 700;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.child>h3>a{
+    color: white;
+}
+#google{
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-family: "lato";
+    font-weight: 600;
+    padding: 8px;
+    width: 300px;
+}
+
+.google{
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-family: "lato";
+    font-weight: 600;
+    padding: 8px;
+    width: 300px;
+    margin-top: 10px;
+}

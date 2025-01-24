@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "lato";
+    src: url("../fonts/Lato-Light.ttf");
+}
+
+body{
+    background-color: black!important;
+}
+.btnSign {
+    background-color: #F35D01;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: "lato";
+    font-weight: 700;
+    padding: 10px;
+}
+.navbar{
+    background-color: white;
+}
+
+.linko {
+    text-decoration: none;
+    color: white;
+
+}
+
+.parent{
+    background-color: #F35D01;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+
+.grandParent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.inputParent>input{
+    width: 400px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.saveBTN{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-family: "lato";
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.dataRender{
+    margin-top: 10px;
+    font-family: "lato";
+    font-weight: 700;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.updateBTn{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(15, 79, 0);
+    color: white;
+    font-family: "lato";
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.delBTn{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(229, 19, 19);
+    color: white;
+    font-family: "lato";
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.updateWork{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(15, 79, 0);
+    color: white;
+    font-family: "lato";
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+
+.www{
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    color: white;
+}
+
+#loder{
+    display: flex;
+    justify-content: center;
+}
+.spinner-border{
+    --bs-spinner-vertical-align :center;
+}
+
+
+@media(max-width: 390px){
+    .inputParent>input{
+        width: 180px;
+        border-radius: 10px;
+        border: none;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media(min-width: 390px) and (max-width: 576px){
+    .inputParent>input{
+        width: 230px;
+        border-radius: 10px;
+        border: none;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}

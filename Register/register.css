@@ -1,0 +1,287 @@
+@font-face {
+    font-family:"lato" ;
+    src: url("../fonts/Lato-Light.ttf");
+}
+
+body{
+    background-color: black!important;
+}
+
+.btnSign{
+    background-color: #F35D01;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: "lato";
+    font-weight: 700;
+    padding: 10px;
+}
+
+.ppp{
+    background-color: #F35D01;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.child01>img{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+.child02{
+    background-color: #F35D01;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+.child02>h1{
+    font-family: "";
+    font-weight: 1100;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-top: 150px;
+}
+.child02>div>input{
+    margin-top: 10px;
+    padding: 05px;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.child02>h3{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "lato";
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.child02>h3>a{
+    color: white;
+}
+
+#registerBtn{
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 300px;
+    padding: 10px;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.linko{
+    text-decoration: none;
+    color: white;
+
+}
+
+@media(max-width: 390px){
+    .parent{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: center;
+       
+    }
+    .child01{
+        display: none;
+    }
+    .child02{
+        background-color: #F35D01;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 20px; 
+        
+    }
+    .child02>h1{
+        font-family: "";
+        font-weight: 1100;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    #registerBtn{
+        margin-bottom: 20px;
+        width: 270px;
+    }    
+    .child02>h3{
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: "lato";
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .child02>div>input{
+        margin-top: 10px;
+        padding: 05px;
+        border: none;
+        border-radius: 10px;
+        width: 270px;
+    }
+}
+
+
+@media(min-width: 390px) and (max-width: 576px){
+    .parent{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: center;
+       
+    }
+    .child01{
+        display: none;
+    }
+    .child02{
+        background-color: #F35D01;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 20px; 
+        
+    }
+    .child02>h1{
+        font-family: "";
+        font-weight: 1100;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    #registerBtn{
+        margin-bottom: 20px;
+        width: 270px;
+    }    
+    .child02>h3{
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: "lato";
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .child02>div>input{
+        margin-top: 10px;
+        padding: 05px;
+        border: none;
+        border-radius: 10px;
+        width: 270px;
+    }
+}
+
+
+@media(min-width: 576px) and (max-width: 768px){
+    .parent{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: center;
+       
+    }
+    .child01{
+        display: none;
+    }
+    .child02{
+        background-color: #F35D01;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 20px; 
+        
+    }
+    .child02>h1{
+        font-family: "";
+        font-weight: 1100;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    #registerBtn{
+        margin-bottom: 20px;
+        width: 270px;
+    }    
+    .child02>h3{
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: "lato";
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .child02>div>input{
+        margin-top: 10px;
+        padding: 05px;
+        border: none;
+        border-radius: 10px;
+        width: 270px;
+    }
+}
+
+
+@media(min-width: 768px) and (max-width: 992px){
+    .parent{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: center;
+       
+    }
+    .child01{
+        display: none;
+    }
+    .child02{
+        background-color: #F35D01;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 20px; 
+        
+    }
+    .child02>h1{
+        font-family: "";
+        font-weight: 1100;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    #registerBtn{
+        margin-bottom: 20px;
+        width: 270px;
+    }    
+    .child02>h3{
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: "lato";
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .child02>div>input{
+        margin-top: 10px;
+        padding: 05px;
+        border: none;
+        border-radius: 10px;
+        width: 270px;
+    }
+}
